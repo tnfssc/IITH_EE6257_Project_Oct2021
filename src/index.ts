@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { config as DotEnvConfig } from "dotenv";
-if (__DEV__) DotEnvConfig(); // FORBIDDEN!!! USE OS ENV VARS BIT*H
+if (__DEV__) DotEnvConfig();
 
 const app = express();
 
